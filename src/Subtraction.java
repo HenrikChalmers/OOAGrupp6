@@ -1,18 +1,19 @@
+package subtraction.model;
+
 import java.lang.Thread;
 
 public class Subtraction extends Thread
 {
-	public Subtraction()
-	{
+	public Subtraction(){
 		
 	}
 	
-	public void run()
-	{
+	public void run(){
 		System.out.println("Subtraction started");
-		try {
+		try{
 			Thread.sleep(2000);
-		} catch (InterruptedException e) {
+		}
+		catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
