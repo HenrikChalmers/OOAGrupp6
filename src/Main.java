@@ -24,6 +24,8 @@ public class Main {
 		thread.start();
 		
 		graphic.stressTest();
+		
+		//lullzbrah
 	}
 
 }
